@@ -1,0 +1,25 @@
+.heroBg {
+    background-color: blueviolet;
+}
+
+.container {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.hero {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    height:600px;
+    padding: 2em;
+}
+
+.display-4 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
