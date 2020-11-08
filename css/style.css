@@ -1,5 +1,41 @@
+/* Universal Code */
+body {
+    background-color: #FFEEE3 !important;
+}
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16pt;
+    line-height: 1.2;
+}
+h3 {
+    font-size: 20pt;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    padding-bottom: .5em;
+}
+h2 {
+    font-size: 32pt;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    padding-bottom: .5em;
+}
+.h2Center {
+    text-align: center;
+    padding-bottom: 1em;
+}
+section {
+    width:80%;
+    display:flex;
+    margin:auto;
+}
+
+/* Hero */
 .heroBg {
-    background-color: blueviolet;
+    background-color: #BF9071 !important;
+    height:100vh;
+}
+.jumbotron {
+    padding:0;
 }
 
 .container {
@@ -7,19 +43,98 @@
     flex-direction: row;
     justify-content: center;
 }
-
-
 .hero {
     display:flex;
     flex-direction: row;
     justify-content: center;
     height:600px;
     padding: 2em;
+    background-color: #BF9071 !important;
 }
-
 .display-4 {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
+    padding-top: .5em;
+    padding-bottom: 1em;
+}
+/* Secondary Nav */
+.nav {
+    width:80%;
+    margin: auto;
+    padding-bottom: 2em;
 }
 
+.nav-item a {
+    font-size: large;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: black;
+}
+
+.nav-item button {
+    background-color: #BF9071 !important;
+    border: none;
+    border-radius: 20px;
+    padding: 0.25em;
+}
+
+/* Overview Content */
+.overview  {
+    display:flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+}
+.overviewContent {
+    display:flex;
+    align-self: center;
+    justify-content: center;
+}
+.row {
+    width:80%;
+    display:flex;
+    margin:auto;
+}
+.col-sm-4 {
+   padding:2em;
+}
+
+.card {
+    background-color:#FFEEE3 ;
+    border: none !important;
+}
+
+/* User Research */
+.secColor {
+    color: #BF9071 !important;
+    padding-bottom: 1em;
+}
+.userResearch {
+   
+    padding-bottom: 2em;
+}
+.card-title-user {
+    text-align: center;
+    margin: auto;
+}
+.card-text-user {
+    text-align: center;
+    margin: auto
+}
+.card-body {
+    width: 80%;
+    margin: auto;
+}
+.blockquote p{
+    text-align: center;
+}
+.blockquote footer {
+    text-align: center;
+    padding-bottom: 1em;
+}
+/* Definition/Ideation */
+
+.card-text-feature {
+    line-height: 1.7;
+}
