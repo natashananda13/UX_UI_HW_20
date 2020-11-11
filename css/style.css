@@ -134,7 +134,39 @@ section {
     padding-bottom: 1em;
 }
 /* Definition/Ideation */
-
 .card-text-feature {
     line-height: 1.7;
+}
+.userPersona2 {
+    width:80%;
+    display: flex;
+    margin: 0;
+}
+.userPersonaImg {
+    
+    width: 1000px;
+    margin:auto;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    display:flex;
+}
+.personaTitle {
+    width: 100vw;
+}
+.mb-3 {
+    margin:auto;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    display:flex;
+}
+.no-gutters {
+    width:80%;
+}
+
+.col-md-8 img{
+    height:450px;
+    width:600px;
+}
+.card-body {
+    width:100%;
 }
