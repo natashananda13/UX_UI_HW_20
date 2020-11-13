@@ -34,13 +34,13 @@
     <h2 class="h2Center">Navigation</h2>
     <ul class="nav nav-pills nav-fill">
         <li class="nav-item">
-            <button><a class="nav-link" href="#">User Research</a></button>
+            <button><a class="nav-link" href="#userResearchSection">User Research</a></button>
         </li>
         <li class="nav-item">
-            <button><a class="nav-link" href="#">Definition/Ideation</a></button>
+            <button><a class="nav-link" href="#DefSec">Definition/Ideation</a></button>
         </li>
         <li class="nav-item">
-            <button><a class="nav-link" href="#">Prototype/Testing</a></button>
+            <button><a class="nav-link" href="#TestSec">Prototype/Testing</a></button>
         </li>
         <li class="nav-item">
             <button><a class="nav-link " href="#">Final Thoughts</a></button>
@@ -53,7 +53,7 @@
     <div class="overview">
         <p class="overviewContent">Solves group indecision when determining where to eat out. </p>
     </div>
-    <div class="row">
+    <div class="row userNeeds">
         <div class="col-sm-4">
             <div class="card">
                 <div class="card-body">
@@ -90,13 +90,13 @@
     </div>
 
     <!-- User Research -->
-    <section>
+    <section id="userResearchSection">
         <div class="userResearch">
             <h2 class="secColor">User Research</h2>
             <h3>The Numbers: Survey & Interview Insights</h3>
         </div>
     </section>
-    <div class="row">
+    <div class="row userNeeds">
         <div class="col-sm-4">
             <div class="card">
                 <div class="card-body">
@@ -141,7 +141,7 @@
     </section>
     </div>
     </div>
-    <div class="row">
+    <div class="row userNeeds">
         <div class="col-sm-4">
             <div class="card">
                 <div class="card-body">
@@ -175,13 +175,13 @@
 
 
     <!-- Definition/Ideation -->
-    <section>
+    <section id="DefSec">
         <div class="userResearch">
             <h2 class="secColor">Definition & Ideation</h2>
             <h3>User Needs: Feature Prioritization</h3>
         </div>
     </section>
-    <div class="row">
+    <div class="row userNeeds">
         <div class="col-sm-6">
             <div class="card">
                 <div class="card-body">
@@ -192,6 +192,7 @@
                 </div>
             </div>
         </div>
+
         <div class="col-sm-6">
             <div class="card">
                 <div class="card-body">
@@ -217,16 +218,17 @@
         </div>
 
         <!-- Storyboard -->
-        <h3>Storyboad: Solving The Problem</h3>
+        <h3>Storyboard: Solving The Problem</h3>
         <div class="card mb-3">
-            <div class="row no-gutters">
+            <div class="row no-gutters userNeeds">
                 <div class="col-md-8">
                     <img src="images/storyboard.png" class="card-img" alt="storyboard">
                 </div>
                 <div class="col-md-4">
-                    
+
                     <div class="card-body">
-                        <p class="card-text">The storyboard illustrates the frustrations that our typical user struggles with and a solution
+                        <p class="card-text">The storyboard illustrates the frustrations that our typical user struggles
+                            with and a solution
                             with our application.</p> <br>
 
                         <p class="card-text">There, we demonstrate a group that cannot find a place to eat that fits all
@@ -239,6 +241,138 @@
                 </div>
             </div>
         </div>
+
+        <div id="TestSec">
+            <div class="userResearch">
+                <h2 class="secColor">Testing & Prototypes</h2>
+                <h3>Sketches</h3>
+            </div>
+
+            <div class="row userNeeds" id="sketches">
+                <div class="col-sm-4">
+                    <div class="card_story">
+                        <div class="card-body videoImg">
+                            <img id="videoImg" src="images/video.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-8">
+                    <div class="card">
+                        <div class="card-body">
+                            <img class="sketchImg" src="images/sketch.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Wireframe -->
+        <div>
+            <div class="userResearch">
+                <h3 id="wireframeTitle">Wireframes</h3>
+            </div>
+        </div>
+
+
+        <div class="row no-gutters userNeeds">
+            <div class="col-md-12 wireframeContainer"></div>
+            <img src="images/wireframe1.png" class="card-img" id="wireframe" alt="wireframe1">
+            <img src="images/wireframe2.png" class="card-img" id="wireframe" alt="wireframe2">
+            <img src="images/wireframe3.png" class="card-img" id="wireframe" alt="wireframe3">
+            <img src="images/wireframe4.png" class="card-img" id="wireframe" alt="wireframe4">
+
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body">
+                        <p class="card-text wfText">During the wireframing process, we created a chat room for friends
+                            to socialize and to meet the communal aspect that was missing from our competitors apps. We
+                            emphasized our consumers needs through
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body">
+                        <p class="card-tex wfText">
+                            our feature prioritization details.We also added a group leader to facilitate planning of
+                            events and focused on the preferences ballot to ensure everyone felt like their voice would
+                            be heard.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Iterations -->
+        <h3>Testing & Feedback: Iterate, Iterate, Iterate</h3>
+        <div class="card mb-3">
+            <div class=" no-gutters userNeeds">
+                <div class="col-md-4 iterateText">
+                    <p>
+                        - automated on boarding screen was too fast for user </p><br>
+
+                        <p> - icons were too small and needed notifications </p> <br>
+
+                        <p>- event names should be in notifications </p> <br>
+
+                        <p>- there should be a way to group friends that the user adds frequently
+                    </p>
+                    
+                </div>
+                <div class="col-md-8 flexGrandParentTest">
+                    <div class="card-body flexParentTest">
+                        <img class="flexChildTest" src="images/test1.png">
+                        <img class="flexChildTest"src="images/test2.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+   <!-- Final Thoughts -->
+  
+    <div>
+        <h2 class="secColor">Final Thoughts</h2>
+        <h3>User Needs: Feature Prioritization</h3>
+    </div>
+
+  
+   <div class="row">
+       <div class="col-sm-4">
+           <div class="card">
+               <div class="card-body">
+                   <p class="card-text">We went into this project thinking that we wanted to solve the problem of finding happy hours in a users location. 
+
+                    However, as we surveyed and interviewed users, we found that users ultimately struggle with group consensus on what and where to eat/drink.
+                    </p>
+
+               </div>
+           </div>
+       </div>
+       <div class="col-sm-4">
+           <div class="card">
+               <div class="card-body">
+                   <p class="card-text">This led us to the following conclusion: often times we think we know what our users want/need, but they will ultimately tell us during interviews and surveys.
+
+                    Through testing and iterations, we found that we may believe our application is intuitive, but users may feel differently. TEST TEST TEST!
+                   </p>
+
+               </div>
+           </div>
+       </div>
+       <div class="col-sm-4">
+           <div class="card">
+               <div class="card-body">
+                   <p class="card-text">FBallot Bites effectively removes the frustration that groups experience when determining where to eat.</p>
+               </div>
+           </div>
+       </div>
+   </div>
+
+
+
+
+
 </body>
 <!-- jQuery, Popper.js, and Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

@@ -12,6 +12,7 @@ h3 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     padding-bottom: .5em;
+    padding-top: 1em;
 }
 h2 {
     font-size: 32pt;
@@ -91,7 +92,7 @@ section {
     align-self: center;
     justify-content: center;
 }
-.row {
+.userNeeds {
     width:80%;
     display:flex;
     margin:auto;
@@ -169,4 +170,53 @@ section {
 }
 .card-body {
     width:100%;
+    padding-bottom: 6em;
+}
+
+/* Testing And Prototypes */
+#sketeches {
+    width:80%
+}
+
+#videoImg  {
+    height: 500px;
+    
+}
+.sketchImg {
+    height: 500px;
+    
+}
+#wireframeTitle {
+    width: 100vw;
+    display:block;
+}
+.wireframeContainer {
+    width:80%
+
+}
+#wireframe {
+    height: 400px;
+    width: 180px;
+    display:flex;
+    margin: auto;
+}
+
+.wireframeContainer img {
+    padding:2em;
+}
+.wfText {
+      margin: auto;
+}
+.flexParentTest {
+    display: flex;
+    flex-direction: row;
+
+}
+.flexParentTest img {
+    height: 500px;
+    width: 250px;
+}
+.iterateText {
+    padding-top:3em;
+
 }
